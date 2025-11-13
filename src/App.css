@@ -1,0 +1,63 @@
+
+main{
+  height: 20rem;
+  background-color: rgb(234, 98, 8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main input{
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 2rem 0;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+main button{
+  margin: 0 1rem;
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.return{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.description{
+  width: 50%;
+  text-align: center;
+} 
+.return img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.return h3{
+  font-size: 30px;
+  margin: 1rem 0 0.5rem 0;    
+}
+.return p{
+  margin: 0.2rem 0;
+} 
+.busca{
+  display: flex;
+  align-items: center;
+} 
+.busca svg{
+  color: #000;
+} 
